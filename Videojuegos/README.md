@@ -1,3 +1,3 @@
 # Videogames
 
-Assignments for the Videogames module course TC2005B
+Assignments for the Videogames module of the TC2005B course

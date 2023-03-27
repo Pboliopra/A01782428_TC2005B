@@ -1,3 +1,3 @@
 # Software Engineering
 
-Assignments for the Software Engineering module course TC2005B
+Assignments for the Software Engineering module of the TC2005B course

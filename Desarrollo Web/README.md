@@ -1,3 +1,3 @@
 # Web Development
 
-Assignments for the Web Development module course TC2005B
+Assignments for the Web Development module of the TC2005B course
