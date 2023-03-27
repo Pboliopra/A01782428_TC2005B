@@ -1,3 +1,3 @@
 # Databases
 
-Assignments for the course TC2005B
+Assignments for the Database module course TC2005B
