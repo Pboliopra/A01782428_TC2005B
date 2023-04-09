@@ -1,0 +1,48 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 14pt;
+}
+
+table {
+    font-size: 14pt;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    empty-cells: hide;
+}
+
+th {
+    font-size: 16pt;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#indent {
+    margin-left: 50px;
+}
+
+#size12 {
+    font-size: 12pt;
+}
+
+#table-code {
+    text-align: left;
+}
