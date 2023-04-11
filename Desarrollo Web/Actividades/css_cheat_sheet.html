@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_cheat_sheet.css">
     <title>CSS Cheatsheet</title>
 </head>
 <body>
-    <div class="container">
+    <div id="border">
         <h1>1.- border</h1>
         <p>These properties allow you 
            to specify the style width 
@@ -18,83 +19,171 @@
         <p>Normally it is written as:</p>
         <pre>border: 1px #000000 solid;</pre>
     </div>
-    <div class="container">
+    <div id="different_borders">
         <h1>2.- border-left, border-right, border-top, border-bottom</h1>
         <p>These properties create 
-            borders for different 
-            elements on the specified 
-            side.</p>
+           borders for different 
+           elements on the specified 
+           side.</p>
         <pre>border-left: 5px solid #0BA6D9;<br>border-right: 4px dotted #00DB43;<br>border-top: 3px double #00C2F0;<br>border-bottom: 2px dashed #36FA00;<br></pre>
     </div>
-    <div class="container">
+    <div id="border_radius">
         <h1>3.- border-radius</h1>
-        <p></p>
-        <pre></pre>
+        <p>This property makes borders 
+           with circular corners that 
+           doesn't apply when border-collapse 
+           is in collapse.</p>
+        <pre>border-radius: 30px;</pre>
     </div>
-    <div class="container">
+    <div id="background_image">
         <h1>4.- background-image</h1>
-        <p></p>
-        <pre></pre>
+        <p>it sets a one or more background images for an element </p>
+        <pre>background-image: url("kame.jpg");</pre>
     </div>
-    <div class="container">
+    <div id="color">
         <h1>5.- color</h1>
-        <p></p>
-        <pre></pre>
+        <p>defines a color in either rgb or hexadecimal</p>
+        <pre>color: #000000;</pre>
     </div>
-    <div class="container">
+    <div id="font">
         <h1>6.- font</h1>
-        <p></p>
-        <pre></pre>
+        <p>this shorthand property sets 
+           all the different properties 
+           of an element's font, as with 
+           any shorthand property, any 
+           individual value that isn't 
+           specified is set to its default.</p>
+        <pre>font: italic 1.2em "Fira Sans", serif;</pre>
     </div>
-    <div class="container">
+    <div id="font_family">
         <h1>7.- font-family</h1>
-        <p></p>
-        <pre></pre>
+        <p>This property defines a 
+           prioritized list of one 
+           or more font family names 
+           or generic family names 
+           for the selected element.</p>
+        <pre>font-family: 'Times New Roman', Times, serif;</pre>
     </div>
-    <div class="container">
+    <div id="styles_weight">
         <h1>8.- font-style, font-weight</h1>
-        <p></p>
-        <pre></pre>
+        <p>
+            <ul>
+                <li>font-style - this property sets a font to either itallic, oblique or normal face from its font-family.</li>
+                <li>font-weight - sets the weight (or boldness) of the font, its available weight depends on its font-family.</li>
+            </ul>
+        </p>
+        <pre>font-style: italic;<br>font-weight: bold;</pre>
     </div>
-    <div class="container">
+    <div id="width_height">
         <h1>9.- width, height</h1>
-        <p></p>
-        <pre></pre>
+        <p>These properties set the 
+           size of an element 
+           through height and 
+           width, if max-width is 
+           used, the element is set 
+           to its maximum width.
+           Their different values 
+           include:
+           <ul>
+            <li>auto - the default where the browser calculates height and width.</li>
+            <li>length - height/width in px, cm, etc.</li>
+            <li>% - height/width in percent of the containing block.</li>
+            <li>initial - height/width in default value.</li>
+            <li>inherit - height/width inherited from parent value.</li>
+           </ul>
+        </p>
+        <pre>height: 50px;<br>width: 100%;</pre>
     </div>
-    <div class="container">
+    <div>
         <h1>10.- list-style</h1>
-        <p></p>
-        <pre></pre>
+        <p>This property defines all the 
+           style parameters for a list.
+            <ul id="list_style">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </p>
+        <pre>list-style: circle;</pre>
     </div>
-    <div class="container">
+    <div id="margin">
         <h1>11.- margin</h1>
-        <p></p>
-        <pre></pre>
+        <p>This property creates a 
+           margin in every single 
+           side, it is an abreviation 
+           to avoid using 
+           margin-(specific side)
+           properties.</p>
+        <pre>margin: 10px;</pre>
     </div>
-    <div class="container">
+    <div id="padding">
         <h1>12.- padding</h1>
-        <p></p>
-        <pre></pre>
+        <p>This property creates a 
+            filler area in each side 
+            to create space between 
+            borders and content. Each 
+            side can have its own 
+            specific padding size.</p>
+        <pre>padding: 40px;</pre>
     </div>
-    <div class="container">
+    <div id="overflow">
         <h1>13.- overflow</h1>
-        <p></p>
-        <pre></pre>
+        <p>This property specifies 
+           wether to clip the content 
+           or add scrollbars when a 
+           given content is too big 
+           to fit in a specific area.
+           The different values fot this property are:
+           <ul>
+            <li>visible - default where overflow isn't clipped and content renders outside the box.</li>
+            <li>hidden - overflow is clipped and the rest od the content is invisible.</li>
+            <li>scroll - overflow is clipped and a scrollbar is added to see the rest of it.</li>
+            <li>auto - scroll but the bar is added only when necessary.</li>
+           </ul>
+        </p>
+        <pre>overflow: scroll;</pre>
     </div>
-    <div class="container">
-        <h1>14.- dislay</h1>
-        <p></p>
-        <pre></pre>
+    <div id="display">
+        <h1>14.- display</h1>
+        This property specifies the 
+           display behavior 
+           <p id="in">(type of rendering)</p> 
+           of an element. It can have <p id="in_bl">different</p> values:
+            <ul>
+                <li>none</li>
+                <li>inline</li>
+                <li>block</li>
+                <li>inline-block</li>
+            </ul>
+        <pre id="bl">display: inline;</pre>
     </div>
-    <div class="container">
+    <div id="position">
         <h1>15.- position</h1>
-        <p></p>
-        <pre></pre>
+        <p>The position property 
+            specifies the type of 
+            positioning an element 
+            will be given. It can 
+            have one of five 
+            different values:
+            <ul>
+                <li>static</li>
+                <li>relative</li>
+                <li>fixed</li>
+                <li>absolute</li>
+                <li>sticky</li>
+            </ul>
+        </p>
+        <pre>position: relative;</pre>
     </div>
-    <div class="container">
+    <div>
         <h1>16.- filter</h1>
-        <p></p>
-        <pre></pre>
+        <p>This property defines 
+            visual effects like 
+            blur or saturation to 
+            an element that often 
+            is &lt;img&gt;</p>
+        <pre>filter: grayscale(30%);</pre>
     </div>
+    <img src="kame.jpg" alt="kame" width="1600" height="900" id="filter"> 
 </body>
 </html>
