@@ -21,8 +21,9 @@
     padding: 10px;
     background-image: url("kame.jpg");
     background-repeat: no-repeat;
-    background-size: 600px;
-    background-position: right 40% bottom 40%;
+    width: auto;
+    height: auto;
+    background-position: right 40%;
     border-radius: 30px;
     color: #ffffff;
     text-shadow: 0 0 5px #000000, 0 0 5px #000000;
