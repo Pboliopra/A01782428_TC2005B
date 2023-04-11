@@ -35,14 +35,14 @@ td, th {
     padding: 10px;
 }
 
-#indent {
+.indent {
     margin-left: 50px;
 }
 
-#size12 {
+.size12 {
     font-size: 12pt;
 }
 
-#table-code {
+.table-code {
     text-align: left;
 }

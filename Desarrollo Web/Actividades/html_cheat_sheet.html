@@ -25,46 +25,57 @@
                 <td><u>download</u></td>
                 <td>filename</td>
                 <td>Makes a hyperlink that downloads a file when clicked.</td>
-                <td><pre><span id="size12">&lt;a&gt; href="file" download &lt;/a&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;a&gt; href="file" download &lt;/a&gt;</span></pre></td>
             </tr>
             <tr>
                 <td><u>href</u></td>
                 <td>URL</td>
                 <td>Specifies the URL the hyperlink goes to.</td>
-                <td><pre><span id="size12">&lt;a href="link"&gt; &lt;/a&gt;</span></pre><br>
-                    <pre><span id="size12">&lt;a href="mailto:someone@example.com"&gt; mailto link &lt;/a&gt;</span></pre><br>
-                    <pre><span id="size12">&lt;a href="tel:+4733378901"&gt; +47 333 78 901 &lt;/a&gt;</span></pre><br>
-                    <pre><span id="size12">&lt;a href="#id"&gt; text &lt;/a&gt;</span></pre><br>
-                    <pre><span id="size12">&lt;a href="javascript:alert"&gt; execute JavaScript &lt;/a&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;a href="link"&gt; &lt;/a&gt;</span></pre><br>
+                    <pre><span size="size12">&lt;a href="mailto:someone@example.com"&gt; mailto link &lt;/a&gt;</span></pre><br>
+                    <pre><span size="size12">&lt;a href="tel:+4733378901"&gt; +47 333 78 901 &lt;/a&gt;</span></pre><br>
+                    <pre><span size="size12">&lt;a href="#id"&gt; text &lt;/a&gt;</span></pre><br>
+                    <pre><span size="size12">&lt;a href="javascript:alert"&gt; execute JavaScript &lt;/a&gt;</span></pre></td>
             </tr>
-        </table></p>
+        </table>
+        <br>
+        <a href="mailto:a01782428@tec.mx">Email me</a></p>
 
         <h2>2.- The p tag</h2>
         <p>This tag defines a paragraph and creates a blank 
            line before and after each <i>&lt;p&gt;</i> tag.</p>
-        <pre><span id="size12">&lt;p&gt; paragraph text &lt;/p&gt;</span></pre>
+
+        <p>This is a paragraph.</p>
+
+        <pre><span size="size12">&lt;p&gt; paragraph text &lt;/p&gt;</span></pre>
 
         <h2>3.- The h1-h6 tags</h2>
         <p>This tag defines html headings, <i>&lt;h1&gt;</i> being the most 
            important an <i>&lt;h6&gt;</i> being the least important.</p>
         <table>
             <tr>
-                <td><pre><span id="size12">&lt;h1&gt;This is a heading 1&lt;/h1&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;h1&gt;This is a heading 1&lt;/h1&gt;</span></pre></td>
+                <td><h1>This is a heading 1</h1></td>
             </tr>
             <tr>
-                <td><pre><span id="size12">&lt;h2&gt;This is a heading 2&lt;/h2&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;h2&gt;This is a heading 2&lt;/h2&gt;</span></pre></td>
+                <td><h2>This is a heading 2</h2></td>
             </tr>
             <tr>
-                <td><pre><span id="size12">&lt;h3&gt;This is a heading 3&lt;/h3&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;h3&gt;This is a heading 3&lt;/h3&gt;</span></pre></td>
+                <td><h3>This is a heading 3</h3></td>
             </tr>
             <tr>
-                <td><pre><span id="size12">&lt;h4&gt;This is a heading 4&lt;/h4&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;h4&gt;This is a heading 4&lt;/h4&gt;</span></pre></td>
+                <td><h4>This is a heading 4</h4></td>
             </tr>
             <tr>
-                <td><pre><span id="size12">&lt;h5&gt;This is a heading 5&lt;/h5&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;h5&gt;This is a heading 5&lt;/h5&gt;</span></pre></td>
+                <td><h5>This is a heading 5</h5></td>
             </tr>
             <tr>
-                <td><pre><span id="size12">&lt;h6&gt;This is a heading 6&lt;/h6&gt;</span></pre></td>
+                <td><pre><span size="size12">&lt;h6&gt;This is a heading 6&lt;/h6&gt;</span></pre></td>
+                <td><h6>This is a heading 6</h6></td>
             </tr>
         </table>
 
@@ -72,26 +83,41 @@
         <p>This tag creates a division or section in an html document, 
            it contains html elements that are then styled with <i>&quot;CSS&quot;</i> with 
            class or id atribute or manipulated with <i>&quot;JavaScript&quot;</i>.</p>
-        <pre><span id="size12">&lt;div class="Div1"&gt;<br>  &lt;h2&gt;Div heading&lt;/h2&gt;<br>  &lt;p&gt;Div text&lt;/p&gt;<br>&lt;/div&gt;</span></pre>
+
+        <div>
+            <h2>This is an html div</h2>
+            <p>I am CSS and JavaScript compatible!</p>
+        </div>
+
+        <pre><span size="size12">&lt;div class="Div1"&gt;<br>  &lt;h2&gt;Div heading&lt;/h2&gt;<br>  &lt;p&gt;Div text&lt;/p&gt;<br>&lt;/div&gt;</span></pre>
 
         <h2>5.- The span tag</h2>
         <p>This tag is an inline container that marks a part of a text 
            or document that is easilystyled with <i>&quot;CSS&quot;</i> or manipulated with
            <i>&quot;JavaScript&quot;</i> using a <i>&quot;class&quot;</i> or <i>&quot;id&quot;</i> attributes.</p>
-        <pre><span id="size12">&lt;p&gt;&lt;span style="color:blue"&gt;This text has&lt;/span&gt;more&lt;span style="color:green"&gt;than one color&lt;/span&gt;</span></pre>
+
+        <span style="color:#0000ff">This text has</span> more <span style="color:#008000">than one color.</span>   
+
+        <pre><span size="size12">&lt;p&gt;&lt;span style="color:blue"&gt;This text has&lt;/span&gt;more&lt;span style="color:green"&gt;than one color&lt;/span&gt;</span></pre>
 
         <h2>6.- The strong tag</h2>
         <p>This tag defines text of greater importance, it is typically
            displayed in bold, not to be confused with the <i>&lt;b&gt;</i> tag 
            which only makes the text bold without extra importance.</p>
-        <pre><span id="size12">&lt;strong&gt;This is important text!&lt;/strong&gt;</span></pre>
+
+        <strong>This is important text!</strong>
+        
+        <pre><span size="size12">&lt;strong&gt;This is important text!&lt;/strong&gt;</span></pre>
 
         <h2>7.- The i tag</h2>
         <p>This tag defines text in an alternate voice or mood, 
            typically displayed in italics, it is often usedd 
            for technical terms, phrases in another languages, 
            thoughts, names, among others.</p>
-        <pre><span id="size12">&lt;i&gt;This text is in italics&lt;/i&gt;</span></pre>
+
+        <i>This text is in italics.</i>
+        
+        <pre><span size="size12">&lt;i&gt;This text is in italics&lt;/i&gt;</span></pre>
 
         <h2>8.- The u tag</h2>
         <p>This tag defines underlined, unarticulated or 
@@ -100,7 +126,10 @@
            text, its default is to be displayed as 
            underlined text but this can be changed with 
            <i>&quot;CSS&quot;</i>.</p>
-        <pre><span id="size12">&lt;p&gt;This text is &lt;u&gt;mispeled&lt;/u&gt; text&lt;/p&gt;</span></pre>
+
+        <u>This text is underlined.</u>
+
+        <pre><span size="size12">&lt;p&gt;This text is &lt;u&gt;mispeled&lt;/u&gt; text&lt;/p&gt;</span></pre>
 
         <h2>9.- The b tag</h2>
         <p>This tag specifies bold text without extra
@@ -108,28 +137,40 @@
            according to <i>&quot;HTML5 documentation&quot;</i> 
            since there are many other ways to specify text 
            with different importance.</p>
-        <pre><span id="size12">&lt;b&gt;This is bold text&lt;/b&gt;</span></pre>
+
+        <b>This is bold text</b>
+
+        <pre><span size="size12">&lt;b&gt;This is bold text&lt;/b&gt;</span></pre>
 
         <h2>10.- The strike tag</h2>
         <p>This tag defined strikethrough text in <i>&quot;HTML4&quot;</i>
            but was discontinued for <i>&quot;HTML5&quot;</i> and replaced
            with the <i>&lt;del&gt;</i> tag. A common use for it is in
            sold out items for example.</p>
-        <pre><span id="size12">&lt;strike&gt;Text that is no longer valid&lt;/strike&gt;</span></pre>
+        
+        <strike>Text that is no longer valid.</strike>
+
+        <pre><span size="size12">&lt;strike&gt;Text that is no longer valid&lt;/strike&gt;</span></pre>
             
-        <div id="indent">
+        <div class="indent">
             <h3>10.1.- The del tag</h3>
             <p>This tag defines text that has been deleted 
                from a document, typically browsers strike 
                a line through said text.</p>
-            <pre><span id="size12">&lt;p&gt;My favorite color is &lt;del&gt;blue&lt;/del&gt; red &lt;/p&gt;</span></pre>
+
+            <p>My favorite color is <del>green</del>.</p>
+
+            <pre><span size="size12">&lt;p&gt;My favorite color is &lt;del&gt;blue&lt;/del&gt; red &lt;/p&gt;</span></pre>
 
             <h3>10.2.- The ins tag</h3>
             <p>This tag normally goes hand in hand with 
                the del tag, since it defines new inserted 
                text in a document, browsers usually 
                underline said text.</p>
-            <pre><span id="size12">&lt;p&gt;My favorite color is &lt;del&gt;blue&lt;/del&gt; &lt;ins&gt;red&lt;/ins&gt; &lt;/p&gt;</span></pre>
+
+            <p>My favorite color is <del>green</del> <ins>blue</ins>.</p>
+
+            <pre><span size="size12">&lt;p&gt;My favorite color is &lt;del&gt;blue&lt;/del&gt; &lt;ins&gt;red&lt;/ins&gt; &lt;/p&gt;</span></pre>
         </div>
         
         <h2>11.- The small tag</h2>
@@ -138,14 +179,19 @@
            it is not a forbiden tag but you could 
            achieve the same or an even better effect 
            by using <i>&quot;CSS&quot;</i>.</p>
-        <pre><span id="size12">&lt;p&gt;This is normal text.&lt;/p&gt;
-             <br>&lt;p&gt;&lt;small&gt;This is smaller text.&lt;/small&gt;&lt;/p&gt;
-        </span></pre>
+
+           <p>Normal text</p>
+           <small>This is small text</small>
+
+        <pre><span size="size12">&lt;p&gt;This is normal text.&lt;/p&gt;<br>&lt;p&gt;&lt;small&gt;This is smaller text.&lt;/small&gt;&lt;/p&gt;</span></pre>
 
         <h2>12.- The em tag</h2>
         <p>This tag is used to define emphasized text,
            its content is usually displayed in italics.</p>
-        <pre><span id="size12">&lt;p&gt;You &lt;em&gt;have&lt;/em&gt; to hurry up!&lt;/p&gt;</span></pre>
+
+        <p>You <em>have</em> to hurry up!</p>
+
+        <pre><span size="size12">&lt;p&gt;You &lt;em&gt;have&lt;/em&gt; to hurry up!&lt;/p&gt;</span></pre>
 
         <h2>13.- The header tag</h2>
         <p>This tag represents a container for 
@@ -163,11 +209,24 @@
             they can't be used within a 
             <i>&lt;footer&gt;</i>, <i>&lt;address&gt;</i> 
             or another <i>&lt;header&gt;</i> element.</p>
-        <pre><span id="size12">&lt;header&gt;<br>  &lt;h1&gt;A heading here&lt;/h1&gt;<br>  &lt;p&gt;Posted by Me&lt;/p&gt;<br>  &lt;p&gt;Additional information&lt;/p&gt;<br>&lt;/header&gt;</span></pre>
-        
+
+            <header>
+                <h1>A heading here</h1>
+                <p>Posted by Me</p>
+                <p>Additional information</p>
+            </header>
+
+        <pre><span size="size12">&lt;header&gt;<br>  &lt;h1&gt;A heading here&lt;/h1&gt;<br>  &lt;p&gt;Posted by Me&lt;/p&gt;<br>  &lt;p&gt;Additional information&lt;/p&gt;<br>&lt;/header&gt;</span></pre>
+
         <h2>14.- The section tag</h2>
         <p>This tag defines a section in a document.</p>
-        <pre><span id="size12">&lt;section&gt;<br>  &lt;h2&gt;Company History&lt;/h2&gt;<br>  &lt;p&gt;Description&lt;/p&gt;<br>&lt;/section&gt;</span></pre>
+
+        <section>
+            <h2>Company History</h2>
+            <p>Description</p>
+        </section>
+
+        <pre><span size="size12">&lt;section&gt;<br>  &lt;h2&gt;Company History&lt;/h2&gt;<br>  &lt;p&gt;Description&lt;/p&gt;<br>&lt;/section&gt;</span></pre>
 
         <h2>15.- The article tag</h2>
         <p>This tag specifies independent, 
@@ -184,7 +243,13 @@
             This element does not render anything 
             on its own but it can be styled with 
             <i>&quot;CSS&quot;</i>.</p>
-        <pre><span id="size12">&lt;article&gt;<br>  &lt;h2&gt;Google Chrome&lt;/h2&gt;<br>  &lt;p&gt;Google Chrome is a web broser developped by Google&lt;/p&gt;<br>&lt;/article&gt;</span></pre>
+
+            <article>
+                <h2>Google Chrome</h2>
+                <p>Google Chrome is a web broser developped by Google</p>
+            </article>
+
+        <pre><span size="size12">&lt;article&gt;<br>  &lt;h2&gt;Google Chrome&lt;/h2&gt;<br>  &lt;p&gt;Google Chrome is a web broser developped by Google&lt;/p&gt;<br>&lt;/article&gt;</span></pre>
 
         <h2>16.- The aside tag</h2>
         <p>This tag defines content aside from 
@@ -194,7 +259,14 @@
            sidebar in a document. This tag also 
            doesn't render anything on itd own but
            can be styled using <i>&quot;CSS&quot;</i>.</p>
-        <pre><span id="size12">&lt;p&gt;This one time I visited the Epcot center&lt;/p&gt;<br><br>&lt;aside&gt;<br>  &lt;h4&gt;Epcot Center&lt;/h4&gt;<br>  &lt;p&gt;Epcot is a theme park at Walt Disney Resort&lt;/p&gt;<br>&lt;/aside&gt;</span></pre>
+
+           <p>This one time I visited the Epcot center</p>
+        <aside>
+            <h4>Epcot Center</h4>
+            <p>Epcot is a theme park at Walt Disney Resort</p>
+        </aside>
+
+        <pre><span size="size12">&lt;p&gt;This one time I visited the Epcot center&lt;/p&gt;<br><br>&lt;aside&gt;<br>  &lt;h4&gt;Epcot Center&lt;/h4&gt;<br>  &lt;p&gt;Epcot is a theme park at Walt Disney Resort&lt;/p&gt;<br>&lt;/aside&gt;</span></pre>
 
         <h2>17.- The footer tag</h2>
         <p>This tag defines a footer for a 
@@ -210,7 +282,13 @@
            </ul>
            You can have several footnote 
            elements in a single document.</p>
-        <pre><span id="size12">&lt;footer&gt;<br>  &lt;p&gt;Author: Name&lt;/p&gt;<br>  &lt;p&gt;&lt;a href="mailto:name@example.com"&gt;name@example.com&lt;/a&gt;&lt;/p&gt;<br>&lt;/footer&gt;</span></pre>
+
+        <footer>
+            <p>Author: Name</p>
+            <p><a href="mailto:name@example.com">name@example.com</a></p>
+        </footer>
+
+        <pre><span size="size12">&lt;footer&gt;<br>  &lt;p&gt;Author: Name&lt;/p&gt;<br>  &lt;p&gt;&lt;a href="mailto:name@example.com"&gt;name@example.com&lt;/a&gt;&lt;/p&gt;<br>&lt;/footer&gt;</span></pre>
 
         <h2>18.- The nav tag</h2>
         <p>This tag defines a set of 
@@ -220,7 +298,15 @@
            some browsers can use this element 
            to choos to omit initial rendering of 
            this content.</p>
-        <pre><span id="size12">&lt;nav&gt;<br>  &lt;a href="/html/"&gt;HTML&lt;/a&gt;<br>  &lt;a href="/css/"&gt;CSS&lt;/a&gt;<br>  &lt;a href="/js/"&gt;JavaScript&lt;/a&gt;<br>  &lt;a href="/python/"&gt;Python&lt;/a&gt;<br>&lt;/nav&gt;</span></pre>
+
+        <nav>
+            <a href="/html/">HTML</a>
+            <a href="/css/">CSS</a>
+            <a href="/js/">JavaScript>/a>
+            <a href="/python/">Python</a>
+        </nav>
+
+        <pre><span size="size12">&lt;nav&gt;<br>  &lt;a href="/html/"&gt;HTML&lt;/a&gt;<br>  &lt;a href="/css/"&gt;CSS&lt;/a&gt;<br>  &lt;a href="/js/"&gt;JavaScript&lt;/a&gt;<br>  &lt;a href="/python/"&gt;Python&lt;/a&gt;<br>&lt;/nav&gt;</span></pre>
 
         <h2>19.- The img tag</h2>
         <p>This tag embeds an image in an 
@@ -239,13 +325,19 @@
             This tag can be nested inside 
             the <i>&lt;a&gt;</i> tag to use the 
             image as a link.</p>
-        <pre><span id="size12">&lt;img src="img.png" alt="img description" width="900" height="900"&gt;</span></pre>
+
+            <img src="img.png" alt="img description" width="900" height="900">
+
+        <pre><span size="size12">&lt;img src="img.png" alt="img description" width="900" height="900"&gt;</span></pre>
 
         <h2>20.- The br tag</h2>
         <p>This tag inserts a single line break 
            and since it is an empty tag it has 
            no end tag.</p>
-        <pre><span id="size12">&ltbr&gt;</span></pre>
+
+        <p>This<br>Text<br>Has<br>Line<br>Breaks</p>
+
+        <pre><span size="size12">&ltbr&gt;</span></pre>
 
         <h2>21.- The hr tag</h2>
         <p>This tag creates a horizontal rule 
@@ -253,26 +345,42 @@
            thematic break in an html page. 
            As is the case with the <i>&lt;br&gt;</i> tag,
            it has no end tag.</p>
-        <pre><span id="size12">&lt;hr&gt;</span></pre>
+
+        <hr>
+
+        <pre><span size="size12">&lt;hr&gt;</span></pre>
 
         <h2>22.- The form tag</h2>
         <p>This tag creates an html form 
            for the user to fill, it can contain 
            one or more of these elements:
            <ul>
-                <li><pre><span id="size12">&lt;input&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;textarea&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;button&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;select&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;option&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;optgroup&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;fieldset&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;label&gt;</span></pre></li>
-                <li><pre><span id="size12">&lt;output&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;input&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;textarea&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;button&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;select&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;option&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;optgroup&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;fieldset&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;label&gt;</span></pre></li>
+                <li><pre><span size="size12">&lt;output&gt;</span></pre></li>
            </ul></p>
-        <pre><span id="size12">&lt;form action="/action_page.php" method="get"&gt;<br>    &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>    &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;<br>    &lt;label for="lname"&gt;Last name:&lt;/label&gt;<br>    &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;<br>    &lt;input type="submit" value="Submit"&gt;<br>&lt;/form&gt;</span></pre>
+
+        <form action="/action_page.php" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <pre><span size="size12">&lt;form action="/action_page.php" method="get"&gt;<br>    &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>    &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;<br>    &lt;label for="lname"&gt;Last name:&lt;/label&gt;<br>    &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;<br>    &lt;input type="submit" value="Submit"&gt;<br>&lt;/form&gt;</span></pre>
         
-        <div id="indent">
+        <div class="indent">
             <h3>22.1.- The input tag</h3>
             <p>This tag specifies an input field 
                where the user can enter data, this 
@@ -291,7 +399,7 @@
                     <td>defines a clickable button (used with 
                             a <i>&quot;JavaScript&quot;</i> to 
                             activate it).</td>
-                    <td id="table-code"><pre>&lt;input type="button" value="Click me" onclick="msg()"&gt;<br><br>&lt;script&gt;<br>function msg() {<br>  alert("Hello world!");<br>}</pre></td>
+                    <td class="table-code"><pre>&lt;input type="button" value="Click me" onclick="msg()"&gt;<br><br>&lt;script&gt;<br>function msg() {<br>  alert("Hello world!");<br>}</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;checkbox&gt;</td>
@@ -299,25 +407,25 @@
                         box that when activated is ticked, they 
                         allow users to select one or more options 
                         among an arbitrary number of choices.</td>
-                    <td id="table-code"><pre>&lt;input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;color&gt;</td>
                     <td>defines a color picker in seven 
                         character hexadecimal notation.</td>
-                    <td id="table-code"><pre>&lt;input type="color" id="favcolor" name="favcolor" value="#ff0000"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="color" id="favcolor" name="favcolor" value="#ff0000"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;date&gt;</td>
                     <td>defines a date picker with the values:
                         day, month and year.</td>
-                    <td id="table-code"><pre>&lt;input type="date" id="birthday" name="birthday"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="date" id="birthday" name="birthday"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;datetime-local&gt;</td>
                     <td>defines a date picker with the values:
                         day, month, year and time.</td>
-                    <td id="table-code"><pre>&lt;input type="datetime-local" id="birthdaytime" name="birthdaytime"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="datetime-local" id="birthdaytime" name="birthdaytime"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;email&gt;</td>
@@ -326,7 +434,7 @@
                         ensure proper format. For multiple 
                         email addresses, add the 
                         <i>&quot;multiple&quot;</i>.</td>
-                    <td id="table-code"><ul>
+                    <td class="table-code"><ul>
                             <li><pre>&lt;input type="email" id="email" name="email"&gt;</pre></li>
                             <li><pre>&lt;input type="email" id="emails" name="emails" multiple&gt;</pre></li>
                         </ul></td>
@@ -336,7 +444,7 @@
                     <td>defines a file-select field and a 
                         <i>&quot;Browse&quot;</i> for the 
                         file uploads, can add multiple.</td>
-                    <td id="table-code"><ul>
+                    <td class="table-code"><ul>
                         <li><pre>&lt;input type="file" id="myfile" name="myfile"&gt;</pre></li>
                         <li><pre>&lt;input type="file" id="myfile" name="myfile" multiple&gt;</pre></li>
                     </ul></td>
@@ -345,14 +453,14 @@
                     <td>&lt;submit&gt;</td>
                     <td>defines a submit button that submits 
                         all form values to a form handler.</td>
-                    <td id="table-code"><pre>&lt;input type="submit"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="submit"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;image&gt;</td>
                     <td>defines an image as a submit button 
                         with <i>&quot;src&quot;</i> being 
                         the path to the image.</td>
-                    <td id="table-code"><pre>&lt;input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;number&gt;</td>
@@ -365,12 +473,12 @@
                             <li><u>value</u> - specifies default value</li>
                         </ul>
                     </td>
-                    <td id="table-code"><pre>&lt;input type="number" id="quantity" name="quantity" min="1" max="5" step="1"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="number" id="quantity" name="quantity" min="1" max="5" step="1"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;password&gt;</td>
                     <td>defines a password field where characters are masked</td>
-                    <td id="table-code"><pre>&lt;input type="password" id="pwd" name="pwd"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="password" id="pwd" name="pwd"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;radio&gt;</td>
@@ -378,7 +486,7 @@
                         normally presented in groups where
                         only one can be selected at the 
                         same time.</td>
-                    <td id="table-code"><pre>&lt;input type="radio" id="html" name="fav_language" value="HTML"&gt;<br>&lt;input type="radio" id="html" name="fav_language" value="CSS"&gt;<br>&lt;input type="radio" id="html" name="fav_language" value="JavaScript"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="radio" id="html" name="fav_language" value="HTML"&gt;<br>&lt;input type="radio" id="html" name="fav_language" value="CSS"&gt;<br>&lt;input type="radio" id="html" name="fav_language" value="JavaScript"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;range&gt;</td>
@@ -392,34 +500,34 @@
                             <li><u>step</u> - specifies the number intervals</li>
                             <li><u>value</u> - specifies default value</li>
                         </ul></td>
-                    <td id="table-code"><pre>&lt;input type="range" id="vol" name="vol" min="0" max="50"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="range" id="vol" name="vol" min="0" max="50"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;reset&gt;</td>
                     <td>defines a reset button to 
                         reset form values to their 
                         initial ones.</td>
-                    <td id="table-code"><pre>&lt;input type="reset"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="reset"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;tel&gt;</td>
                     <td>defines a field for entering a 
                         telephone number, if not supported, 
                         use <i>&quot;text&quot;.</i></td>
-                    <td id="table-code"><pre>&lt;input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;text&gt;</td>
                     <td>defines a single-line text 
                         field, its default width is 
                         20 characters.</td>
-                    <td id="table-code"><pre>&lt;input type="text" id="fname" name="fname"&gt;</pre></td>
+                    <td class="table-code"><pre>&lt;input type="text" id="fname" name="fname"&gt;</pre></td>
                 </tr>
                 <tr>
                     <td>&lt;time&gt;</td>
                     <td>defines a control for 
                         entering the time,</td>
-                    <td id="table-code"><pre></pre></td>
+                    <td class="table-code"><pre></pre></td>
                 </tr>
                </table>
 
@@ -519,21 +627,43 @@
             <li>&lt;th&gt; defines a table header</li>
             <li>&lt;td&gt; defines s table cell</li>
         </ul></p>
-        <pre><span id="size12">&lt;table&gt;<br>  &lt;tr&gt;<br>    &lt;th&gt;Header text&lt;/th&gt;<br>  &lt;/tr&gt;<br>  &lt;tr&gt;<br>    &lt;td&gt;Cell text&lt;/td&gt;<br>  &lt;/tr&gt;<br>&lt;/table&gt;</span></pre>
+
+        <table>
+            <tr>
+                <th>Header text</th>
+            </tr>
+            <tr>
+                <td>Cell text</td>
+            </tr>
+        </table>
+
+        <pre><span size="size12">&lt;table&gt;<br>  &lt;tr&gt;<br>    &lt;th&gt;Header text&lt;/th&gt;<br>  &lt;/tr&gt;<br>  &lt;tr&gt;<br>    &lt;td&gt;Cell text&lt;/td&gt;<br>  &lt;/tr&gt;<br>&lt;/table&gt;</span></pre>
 
         <h2>24.- The ul tag</h2>
         <p>This tag defines an unordered list 
            (a bulleted list) the element is made 
            by one <i>&lt;ul&gt;</i> tag and one or more 
            <li> tags.</li></p>
-        <pre><span id="size12">&lt;ul&gt;<br>  &lt;li&gt;Element&lt;/li&gt;<br>  &lt;li&gt;Element&lt;/li&gt;<br>&lt;/ul&gt;</span></pre>
+
+        <ul>
+            <li>Element</li>
+            <li>Element</li>
+        </ul>
+
+        <pre><span size="size12">&lt;ul&gt;<br>  &lt;li&gt;Element&lt;/li&gt;<br>  &lt;li&gt;Element&lt;/li&gt;<br>&lt;/ul&gt;</span></pre>
 
         <h2>25.- The ol tag</h2>
         <p>This tag defines an ordered list that 
            can be either numerical or alphabetical, 
            the <i>&lt;li&gt;</i> tag also defines the 
            different listed items.</p>
-        <pre><span id="size12">&lt;ol&gt;<br>  &lt;li&gt;Element 1&lt;/li&gt;<br>  &lt;li&gt;Element 2&lt;/li&gt;<br>&lt;/ol&gt;</span></pre>
+
+        <ol>
+            <li>Element</li>
+            <li>Element</li>
+        </ol>
+
+        <pre><span size="size12">&lt;ol&gt;<br>  &lt;li&gt;Element 1&lt;/li&gt;<br>  &lt;li&gt;Element 2&lt;/li&gt;<br>&lt;/ol&gt;</span></pre>
 
         <h2>26.- Html Entities</h2>
         <p>There are some reserved characters in 
