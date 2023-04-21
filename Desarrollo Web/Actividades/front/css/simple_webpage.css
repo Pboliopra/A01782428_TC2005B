@@ -32,21 +32,30 @@ body{
 }
 
 #webdev-course{
+    padding: 2vw;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: #b97d2d;
     justify-content: center;
+    align-items: center;
+    text-align: justify;
     color: #ffffff;
-    height: 40vh;
+    height: 35vh;
+    width: 100vw ;
 }
 
 #news{
     padding: 10px;
     display: flex;
     background-color: #25404b;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #ffffff;
+}
+
+#empty{
+    flex-basis: 10vh;
 }
 
 #send{
@@ -60,7 +69,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     text-align: justify;
-    height: 40vh;
+    height: 45vh;
 }
 
 #logos img{
