@@ -211,8 +211,34 @@ console.log(alphabeticOrder(["d", "n", "a"]));
 números y devuelva la mediana y la moda.
 */
 function medianMode(numList) {
-    
+    numList.sort((item1, item2) => item1 - item2);
+    let n = numList.length, median = 0;
+    if (n % 2 == 0) {
+        median = (numList[n / 2 - 1] + numList[n / 2])/2;
+    }
+    else{
+        median = numList[Math.floor(n/2)]
+    }
+
+    const seenCount = {};
+    let currentMax = 0;
+    let mode = 0;
+    for (let num of numList) {
+            if (seenCount[num] === undefined)
+                seenCount[num] = 0;
+            else 
+                seenCount[num]++;
+    }
+    for (let num in seenCount) {
+        if (seenCount[num] > currentMax) {
+            currentMax = seenCount[num];
+            mode = num; 
+        }
+    }
+    return {median, mode};
 }
+console.log("Testing the function to get median and mode of an array of numbers");
+console.log(medianMode([5,1,2,0,2,1,5,5]));
 /*
 13.- Escribe una función que tome una lista de 
 cadenas de texto y devuelva la cadena más 
