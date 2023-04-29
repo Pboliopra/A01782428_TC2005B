@@ -141,8 +141,15 @@ regrese una lista con todos sus factores. Por
 ejemplo: factoriza(12) -> [1, 2, 3, 4, 6, 12].
 */
 function factorize(number) {
-    
+    const arr = [];
+    for (let i = 1; i < number + 1; i++) {
+        if (number%i == 0)
+            arr.push(i);
+    }
+    return arr;
 }
+console.log("Testing the function to get all possible factors of a given number");
+console.log(factorize(12));
 /*
 8.- Escribe una función que quite los elementos 
 duplicados de un arreglo y regrese una lista con 
