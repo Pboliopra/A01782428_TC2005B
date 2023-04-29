@@ -23,13 +23,20 @@ console.log(firstNonRepeated("abacddbec"));
 el algoritmo 'bubble-sort' para 
 ordenar una lista de números.
 */
-function Bubble_Sort(NumList){
-    
-    
-    temp = x;
-    x = y;
-    y = temp
+function bubbleSort(NumList){
+    for (let i = 0; i < NumList.length; i++) {
+        for (let j = 0; j < NumList.length - i - 1; j++) {
+            if (NumList[j]>NumList[j+1]) {
+                temp = NumList[j];
+                NumList[j] = NumList[j+1];
+                NumList[j+1] = temp;
+            }  
+        } 
+    }
+    return NumList; 
 }
+console.log("Testing function to bubble sort an array");
+console.log(bubbleSort([2,3,6,78,3,9,2,7,4,2]));
 /*
 3.- Escribe dos funciones: la primera que 
 invierta un arreglo de números y 
