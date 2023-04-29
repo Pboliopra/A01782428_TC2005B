@@ -218,9 +218,26 @@ function medianMode(numList) {
 cadenas de texto y devuelva la cadena más 
 frecuente.
 */
-function mostRepeats(params) {
-    
+function mostRepeats(arr) {
+    const seenCount = {};
+    let currentMax = 0;
+    let trending = "";
+    for (let str of arr) {
+            if (seenCount[str] === undefined)
+                seenCount[str] = 0;
+            else 
+                seenCount[str]++;
+    }
+    for (let str in seenCount) {
+        if (seenCount[str] > currentMax) {
+            currentMax = seenCount[str];
+            trending = str; 
+        }
+    }
+    return trending;
 }
+console.log("Testing the function to get the trendiest of strings");
+console.log(mostRepeats(["d", "n", "a", "a", "b", "c"]));
 /*
 14.- Escribe una función que tome un número y 
 devuelva verdadero si es una potencia de dos, 
