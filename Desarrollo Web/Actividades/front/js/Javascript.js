@@ -46,12 +46,26 @@ mismo arreglo que se pasa como
 argumento. No se permite usar la 
 función integrada 'reverse'.
 */
-function invert(params) {
-    
+function invert(arr) {
+    const newArr = [];
+    for (let i = arr.length - 1; i >= 0; i--)
+        newArr.push(arr[i]);
+    return newArr;
 }
-function modify(params) {
-    
+console.log("Testing function to a capella invert an array returning a new array");
+console.log(invert(["a", "e", "i", "o", "u"]));
+
+function modify(arr) {
+    let n = arr.length;
+    for (let i = 0; i < Math.floor(n/2); i++) {
+        temp = arr[i];
+        arr[i] = arr[n - 1 - i];
+        arr[n - 1 - i] = temp; 
+    }
+    return arr;
 }
+console.log("Testing function to a capella invert an array returning the same array but modified");
+console.log(modify(["a", "e", "i", "o", "u"]));
 /*
 4.- Escribe una función que reciba una 
 cadena de texto y regrese una nueva con 
@@ -92,6 +106,17 @@ Por ejemplo, para la cadena
 speak es: 'J4v45c1pt 35 d1v3rt1d0'.
 */
 function translate(strng) {
+const dict = {
+    'o':0,
+    'i':1,
+    'z':2,
+    'e':3,
+    'a':4,
+    's':5,
+    'b':6,
+    't':7,
+    'g':9
+};
 /*
 ... unpacking operator/spread syntax, it basically 
 converts an array into its different values but in 
@@ -106,17 +131,6 @@ or so I used the coalescence operator instead, in
 order to simply add the char if it doesn't exist 
 in the dictionary
 */
-const dict = {
-    'o':0,
-    'i':1,
-    'z':2,
-    'e':3,
-    'a':4,
-    's':5,
-    'b':6,
-    't':7,
-    'g':9
-};
 return [...strng].map(chr => {dict[chr.toLowerCase()] ?? chr}).join("");
 }
 console.log("Testing the function to translate text to hacker speak");
